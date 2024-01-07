@@ -10,8 +10,8 @@ function goimail($email,$name,$password){
             $mail->CharSet  = "utf-8";
             $mail->Host = 'smtp.gmail.com';  //SMTP servers
             $mail->SMTPAuth = true; // Enable authentication
-            $nguoigui = 'trungthanh01233@gmail.com';
-            $matkhau = 'vjiqefvvrualacit';
+            $nguoigui = 'Your email address';
+            $matkhau = 'Your email password';
             $tennguoigui = 'Leo';
             $mail->Username = $nguoigui; // SMTP username
             $mail->Password = $matkhau;   // SMTP password

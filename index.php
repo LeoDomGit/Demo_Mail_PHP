@@ -1,6 +1,6 @@
 <?php 
 include_once('mail.php');
-$email='leodomsolar@gmail.com';
+$email='Your Email Address';
 $name='Test User';
 $password='1234';
 goimail($email,$name,$password)
